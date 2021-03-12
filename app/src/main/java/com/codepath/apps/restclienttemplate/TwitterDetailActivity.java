@@ -36,5 +36,7 @@ public class TwitterDetailActivity extends AppCompatActivity {
         tvName.setText(tweet.user.name);
         String handle = "@" + tweet.user.screenName;
         tvHandle.setText(handle);
+
+        Glide.with(TwitterDetailActivity.this).load(tweet.user.profileImageUrl).into(ivProfilePicture);
     }
 }
