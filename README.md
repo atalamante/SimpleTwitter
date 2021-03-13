@@ -4,7 +4,49 @@
 
 Time spent: **8** hours spent in total
 
-## User Stories
+## User Stories (Part 2)
+
+The following **required** functionality is completed:
+
+- [x] User can **compose and post a new tweet**
+  - [x] User can click a “Compose” icon in the Action Bar on the top right
+  - [x] User can then enter a new tweet and post this to twitter
+  - [x] User is taken back to home timeline with **new tweet visible** in timeline
+  - [x] Newly created tweet should be manually inserted into the timeline and not rely on a full refresh
+  - [x] User can **see a counter with total number of characters left for tweet** on compose tweet page
+
+The following **optional** features are implemented:
+
+- [x] User is using **"Twitter branded" colors and styles**
+- [x] User can click links in tweets launch the web browser
+- [ ] User can **select "reply" from detail view to respond to a tweet**
+- [x] The "Compose" action is moved to a FloatingActionButton instead of on the AppBar
+- [ ] Compose tweet functionality is build using modal overlay
+- [x] Use Parcelable instead of Serializable using the popular [Parceler library](http://guides.codepath.org/android/Using-Parceler).
+- [x] User can **open the twitter app offline and see last loaded tweets**. Persisted in SQLite tweets are refreshed on every application launch. While "live data" is displayed when app can get it from Twitter API, it is also saved for use in offline mode.
+- [ ] When a user leaves the compose view without publishing and there is existing text, prompt to save or delete the draft. If saved, the draft should then be **persisted to disk** and can later be resumed from the compose view.
+- [ ] Enable your app to receive implicit intents from other apps. When a link is shared from a web browser, it should pre-fill the text and title of the web page when composing a tweet.
+
+The following **additional** features are implemented:
+
+- [ ] List anything else that you can get done to improve the app functionality!
+
+## Video Walkthrough (Part 2)
+
+Here's a walkthrough of implemented user stories:
+
+<img src='https://github.com/atalamante/SimpleTwitter/blob/master/walkthrough%20part%202.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://github.com/atalamante/SimpleTwitter/blob/master/walkthrough%20part%202%20persistence.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+GIF created with [LiceCap](http://www.cockos.com/licecap/).
+
+## Notes (Part 2)
+
+I did not run into many challenges with this assignment. I thought that adding the FloatingActionButton was interesting and it was a cool feature to add. I am not
+familiar with SQL, so doing the persistence stretch story was all new to me. I'm not sure that I understood everything that we did, but I look forward to
+learning more about it. Overall, I enjoyed this assignment and the video walkthroughs helped a ton.
+
+## User Stories (Part 1)
 
 The following **required** functionality is completed:
 
@@ -29,7 +71,7 @@ The following **additional** features are implemented:
 
 - [ ] List anything else that you can get done to improve the app functionality!
 
-## Video Walkthrough
+## Video Walkthrough (Part 1)
 
 Here's a walkthrough of implemented user stories:
 
@@ -38,7 +80,7 @@ Here's a walkthrough of implemented user stories:
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
-## Notes
+## Notes (Part 1)
 
 I did not run into many challenges with this app. I tried to push myself more to work on the required stories. I tried to
 make a detailed screen when clicked on, and I was successful except I was not sure how to get the profile picture. Other than that,
